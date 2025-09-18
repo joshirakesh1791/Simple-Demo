@@ -35,7 +35,7 @@ st.pyplot(fig)
 st.write(f"The square of the selected number ({number}) is: {number**2}")
 
 # Define the variable to fix the issue
-#undefined_variable = "default value"
+undefined_variable = "default value"
 
 # Display the value of the variable
 st.write(f"The value of undefined_variable is: {undefined_variable}")
