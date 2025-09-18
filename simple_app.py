@@ -32,3 +32,10 @@ data['A'].plot(kind='line', ax=ax)
 st.pyplot(fig)
 
 # Adding interactivity: Calculate square of the selected number
+st.write(f"The square of the selected number ({number}) is: {number**2}")
+
+# Define the variable to fix the issue
+#undefined_variable = "default value"
+
+# Display the value of the variable
+st.write(f"The value of undefined_variable is: {undefined_variable}")
